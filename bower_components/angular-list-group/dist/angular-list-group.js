@@ -127,7 +127,12 @@ var ListGroupCtrl = [
 			};
 
 			ctrl.$$items = [];
-			ctrl.$$selectedItems = [];
+
+			ctrl.$$selectedItems = $scope.selectedItems;
+			if(!ctrl.$$selectedItems){
+				ctrl.$$selectedItems = [];
+			}
+			
 			ctrl.filter = {
 				text : '',
 				comparator : 'contains',
