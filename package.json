@@ -2,16 +2,13 @@
   "name": "angular-list-group",
   "version": "0.0.3",
   "homepage": "http://gnavarro77.github.io/angular-list-group",
-  "keywords": [
-    "angular",
-    "bootstrap",
-    "list group"
-  ],
+  "keywords": ["angular", "bootstrap", "list group"],
   "description": "AngularListGroup - AngularJS directives based upon and around Bootstrap list group",
   "author": {
     "name": "Gilles Navarro",
     "url": "https://github.com/gnavarro77"
   },
+  "main": "dist/angular-list-group.js",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~1.0.1",
